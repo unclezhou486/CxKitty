@@ -11,11 +11,11 @@ repository = "https://github.com/SocialSisterYi/CxKitty"
 [[tool.poetry.source]]
 name = "tsinghua"
 url = "https://pypi.tuna.tsinghua.edu.cn/simple"
-priority = "default"
+priority = "primary"
 
 
 [tool.poetry.dependencies]
-python = ">=3.10,<3.12"
+python = ">=3.10,<3.13"
 requests = "^2.28.1"
 qrcode = "^7.3.1"
 rich = "^12.6.0"
